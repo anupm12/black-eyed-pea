@@ -1,7 +1,57 @@
+// SCSS IMPORT
+@import 'media';
+
 // font
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 $font: Raleway , sans-serif;
 
-.heading{
-    border: 1px solid #000;
+$dark-blue : #424874;
+$pink : #FFCAD4;
+$purple : #491A9B;
+$light-blue : #9593D9;
+$text-color : #fff;
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-c {
+    height: 7rem;
+}
+
+.navbar-brand-c {
+    margin-left: 9rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0rem 2rem 0rem 0rem;
+
+    a:hover {
+        color: $pink !important;
+    }
+}
+
+.landing-svg {
+    height: 30rem;
+    width: 54rem;
+}
+
+.landing-text {
+    
+    padding: 2rem 0rem 2rem 7rem;
+    h1 {
+        margin-bottom: 2px;
+        color: $dark-blue;
+        font-weight: 700;
+    }
+    p {
+        font-size: 1.3rem;
+        color: $pink;
+        line-height: 28px;
+        padding-left: 2rem;
+    }
 }

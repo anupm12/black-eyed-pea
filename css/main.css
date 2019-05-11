@@ -1,6 +1,45 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
-.heading {
-  border: 1px solid #000;
+body {
+  overflow-x: hidden;
+}
+
+.navbar-c {
+  height: 7rem;
+}
+
+.navbar-brand-c {
+  margin-left: 9rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0rem 2rem 0rem 0rem;
+}
+.nav-item a:hover {
+  color: #FFCAD4 !important;
+}
+
+.landing-svg {
+  height: 30rem;
+  width: 54rem;
+}
+
+.landing-text {
+  padding: 2rem 0rem 2rem 7rem;
+}
+.landing-text h1 {
+  margin-bottom: 2px;
+  color: #424874;
+  font-weight: 700;
+}
+.landing-text p {
+  font-size: 1.3rem;
+  color: #FFCAD4;
+  line-height: 28px;
+  padding-left: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
