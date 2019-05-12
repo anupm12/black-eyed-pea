@@ -3,16 +3,24 @@
 
 // font
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
-$font: Raleway , sans-serif;
 
+$font: Raleway,
+sans-serif;
 $dark-blue : #424874;
 $pink : #FFCAD4;
 $purple : #491A9B;
 $light-blue : #9593D9;
 $text-color : #fff;
+$background : #F2F2F2;
 
 body {
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100% !important;
 }
 
 .navbar-c {
@@ -36,22 +44,29 @@ body {
 }
 
 .landing-svg {
-    height: 30rem;
+    height: 30rem !important;
     width: 54rem;
 }
 
 .landing-text {
-    
-    padding: 2rem 0rem 2rem 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem 2rem 0rem;
+
     h1 {
+        padding-left: 2rem;
         margin-bottom: 2px;
         color: $dark-blue;
         font-weight: 700;
     }
+
     p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         color: $pink;
         line-height: 28px;
-        padding-left: 2rem;
+        margin-left: 2rem;
+        padding: .45rem 0rem .45rem 6px;
+        border-left: 4px solid $dark-blue;
     }
 }
