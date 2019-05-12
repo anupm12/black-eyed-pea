@@ -1,16 +1,24 @@
 @media only screen and(min-width:900px){
+// for desktop
     .navbar-brand-c{
         margin-left: 9rem;
+    }
+
+    .landing-svg {
+        height: 30rem !important;
+        width: 54rem;
     }
 }
 
 @media only screen and(max-width:900px){
+// for tablet
     .navbar-brand-c{
         margin-left: 5rem;
     }
 }
 
 @media only screen and(max-width:500px){
+// for mobile
     .navbar-brand-c{
         margin-left: .5rem;
     }

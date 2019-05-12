@@ -3,6 +3,11 @@
   .navbar-brand-c {
     margin-left: 9rem;
   }
+
+  .landing-svg {
+    height: 30rem !important;
+    width: 54rem;
+  }
 }
 @media only screen and (max-width: 900px) {
   .navbar-brand-c {
@@ -43,7 +48,6 @@ body {
 }
 
 .landing-svg {
-  height: 30rem !important;
   width: 54rem;
 }
 
@@ -66,6 +70,10 @@ body {
   margin-left: 2rem;
   padding: 0.45rem 0rem 0.45rem 6px;
   border-left: 4px solid #424874;
+}
+
+#curvedBreak path {
+  fill: #FFCAD4;
 }
 
 /*# sourceMappingURL=main.css.map */

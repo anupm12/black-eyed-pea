@@ -44,7 +44,6 @@ body {
 }
 
 .landing-svg {
-    height: 30rem !important;
     width: 54rem;
 }
 
@@ -69,4 +68,8 @@ body {
         padding: .45rem 0rem .45rem 6px;
         border-left: 4px solid $dark-blue;
     }
+}
+
+#curvedBreak path {
+    fill: $pink;
 }
