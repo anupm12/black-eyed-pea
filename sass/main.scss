@@ -70,6 +70,28 @@ body {
     }
 }
 
+// .text-anim {
+//     white-space: nowrap;
+//     overflow: hidden;
+//     width: inherit;
+//     animation: type 3s steps(60, end); 
+//   }
+  
+//   .text-anim:nth-child(1){
+//     animation: type2 8s steps(60, end);
+//   }
+
+  
+//   @keyframes type{ 
+//     from { width: 0; } 
+//   } 
+  
+//   @keyframes type2{
+//     0%{width: 0;}
+//     50%{width: 0;}
+//     100%{ width: 100; } 
+//   } 
+
 #curvedBreak path {
     fill: $pink;
 }
