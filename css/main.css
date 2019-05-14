@@ -74,6 +74,7 @@ body {
 
 #curvedBreak path {
   fill: #FFCAD4;
+  width: 100vw !important;
 }
 
 /*# sourceMappingURL=main.css.map */
